@@ -1,0 +1,22 @@
+
+
+.tweet-container{
+  display: flex;
+  height: 100%
+}
+.tweet-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    padding: 20px;
+    border-right: 1px solid gray;
+}
+.tweet-list {
+  flex: 2;
+  height: 100%;
+}
+
+.tweet-app {
+  height: 100%;
+}
