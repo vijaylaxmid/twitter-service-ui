@@ -11,7 +11,8 @@ import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
 
 const TweetList = ({ tweets, deleteTweet }) => (
-  <div className="tweet-list"><List>
+  <div className="tweet-list">
+  <List>
     {tweets.map((tweet, index) => (
       <ListItem key={tweet.id}>
         <ListItemText primary={tweet.id} />
